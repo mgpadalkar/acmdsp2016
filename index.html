@@ -230,26 +230,36 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="https://docs.google.com/forms/d/1eiPafmITCwnjxhjwjzJSR2XJA5niNwY9eWpv1jaw_VM/formResponse"
+								<!--<form method="post" action="https://docs.google.com/forms/d/1eiPafmITCwnjxhjwjzJSR2XJA5niNwY9eWpv1jaw_VM/formResponse"
 								target="redirect" onsubmit="submitted=true"
 								>
+								-->
+								<script type="text/javascript">var submitted=false;</script>
+								<!--<iframe name="hidden_iframe" id="hidden_iframe"
+								style="display:none;" onload="if(submitted)
+								{window.location='#';}"></iframe>-->
+								<iframe name="hidden_iframe" id="hidden_iframe"
+								style="display:none;" onload="if(submitted)
+								{alert('Thank you for filling out our form for ACM Distinguished Speaker 2016 event. Your query for this event has been recorded. We will get in touch with you soon.'); window.location='#'; }"></iframe>
+								<form action="https://docs.google.com/forms/d/1nxETtvXk4uSnhFkp9KjKiJbE9KVhsrBNmpQElH8Y-OA/formResponse" method="post"
+								target="hidden_iframe" onsubmit="submitted=true;">								
 									<div>
 										<div class="row">
 											<div class="6u 12u(mobile)">
-												<input type="text" name="entry.172281466" id="name" placeholder="Name (required):" required />
+												<input type="text" name="entry_545710549" id="name" placeholder="Name (required):" required />
 											</div>
 											<div class="6u 12u(mobile)">
-												<input type="email" name="entry.1386563430" id="email" placeholder="Email (required):" required />
+												<input type="email" name="entry.1737762186" id="email" placeholder="Email (required):" required />
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<input type="text" name="entry_1644242744" id="subject" placeholder="Subject (required):" required />
+												<input type="text" name="entry.1973256173" id="subject" placeholder="Subject (required):" required />
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<textarea name="entry_1730603738" id="message" placeholder="Message (required):" required /></textarea>
+												<textarea name="entry.1854169617" id="message" placeholder="Message (required):" required /></textarea>
 											</div>
 										</div>
 										<div class="row 200%">
